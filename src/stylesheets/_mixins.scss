@@ -1,0 +1,8 @@
+
+
+// 可以将部分常用的公用代码抽离出来
+
+@mixin border-radius {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}

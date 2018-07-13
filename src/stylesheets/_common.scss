@@ -1,0 +1,24 @@
+
+// 主要放一些通用的样式
+
+.clearfix {
+    &:after {
+        content: '';
+        display: block;
+        height: 0;
+        overflow: hidden;
+        clear: both;
+    }
+}
+
+
+.page {
+    padding-top: 0.9rem;
+}
+
+/*.a{ 
+	width:  1rem;
+	height: 1rem;
+	background: $base-color; 
+	@include border-radius;
+}*/
